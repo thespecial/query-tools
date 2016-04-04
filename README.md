@@ -37,6 +37,23 @@ cd ~/path/to/cloned/repo/user_agent && php user_agent.php
 ## Logs 
 Logging system has been implemented in apps. Feel free to use them in case of problems.
 
-# Demo
+## Demo
+Tags Checker | User Agent 
+-------------|-----------
+![tags_checker](https://cloud.githubusercontent.com/assets/3316019/14246785/13807cdc-fa72-11e5-8a24-626bc3d704d5.gif)|![user_agent](https://cloud.githubusercontent.com/assets/3316019/14246786/13aca852-fa72-11e5-823f-a6a829b21b50.gif)
+
+## What else I would test:
+- https://www.owasp.org/index.php/HTTP_Response_Splitting
+- http://resources.infosecinstitute.com/sql-injection-http-headers/
+- GET/POST insecure params. Ex: 'or 1=1 etc.
+  - OR 'SQLi' = 'SQL'+'i'
+  - OR 'SQLi' > 'S'
+  - or 20 > 1
+  - OR 2 between 3 and 1
+  - OR 'SQLi' = N'SQLi'
+  - 1 and 1 = 1
+  - 1 || 1 = 1
+  - 1 && 1 = 1 
+
 
 
